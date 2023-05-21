@@ -92,12 +92,12 @@ button {
 }
 
 .valid {
-    color: limegreen;
+    color: green;
     margin-left: 0.25rem;
 }
 
 .invalid {
-    color: red;
+    color: rgb(252, 39, 39);
     margin-left: 0.25rem;
 }
 
