@@ -72,9 +72,9 @@ const Register=()=> {
             if(!err?.response){
                 setErrMsg("No Server Response");
             } else if(err.response?.status==409){
-                setErrMsg('Username Taken');
+                setErrMsg('Username Added');
             } else {
-                setErrMsg('Registration Failed')
+                setErrMsg('Registration failed')
             }
         }
     }
