@@ -31,7 +31,6 @@ const Register=()=> {
     useEffect(()=>{
         userRef.current.focus();
     },[])
-
     useEffect(()=>{
         const result=USER_REGEX.test(user);
         console.log(result);
@@ -78,8 +77,6 @@ const Register=()=> {
             }
         }
     }
-
-
   return (
     <section>
         <p ref={errRef} className={errMsg?"errmsg":"offscreen"} aria-live="assertive">{errMsg}</p>
