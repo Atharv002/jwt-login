@@ -112,3 +112,7 @@ button {
 .line {
     display: inline-block;
 }
+
+.right{
+    display:inline-block;
+}
