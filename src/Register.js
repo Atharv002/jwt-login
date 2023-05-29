@@ -55,7 +55,7 @@ const Register=()=> {
         const t1=USER_REGEX.test(user);
         const t2=PWD_REGEX.test(pwd);
         if(!t1 || !t2){
-            setErrMsg("Invalid Entry");
+            setErrMsg("Invalid Entry, Please try again");
             return;
         }
         try{
