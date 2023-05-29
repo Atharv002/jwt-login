@@ -47,7 +47,7 @@ const Register=()=> {
     },[pwd,matchPwd])
 
     useEffect(()=>{
-        setErrMsg('');
+        setErrMsg('Error');
     },[user,pwd,matchPwd])
 
     const handleSubmit=async(e)=>{
