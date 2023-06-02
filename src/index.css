@@ -101,7 +101,7 @@ button {
     margin-left: 0.25rem;
 }
 
-.errmsg {
+.errmsg{
     background-color: lightpink;
     color: blue;
     font-weight: bold;
@@ -109,7 +109,7 @@ button {
     margin-bottom: 0.5rem;
 }
 
-.line {
+.line{
     display:inline-block;
 }
 
