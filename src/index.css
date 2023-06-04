@@ -76,7 +76,7 @@ button {
     color: #fff;
     padding: 0.25rem;
     position: relative;
-    bottom: -10px;
+    bottom: -1px;
 }
 
 .instructions > svg {
