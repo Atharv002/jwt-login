@@ -82,7 +82,6 @@ button {
 .instructions > svg {
     margin-right: 0.25rem;
 }
-
 .offscreen {
     position: absolute;
     left: -9999px;
